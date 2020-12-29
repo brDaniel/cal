@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script>
+        function inverse()
+        {
+            var num=document.getElementById("n1");
+            num.value=1/num.value;
+        }
+    </script>
+</head>
+<body>
+   <p>Number:</p>
+   <input type="text" name="num1" id="n1">
+   <button onclick="inverse()">1/x</button>
+</body>
+</html>
